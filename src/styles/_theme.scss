@@ -1,0 +1,10 @@
+// Bootstrap style override
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'danger': $danger,
+  'light': $light,
+);
+
+@import '~bootstrap/scss/bootstrap';

@@ -1,0 +1,52 @@
+@import './variables';
+@import './theme';
+
+#root,
+html,
+body {
+  background: $primary-background-color;
+  font-family: $primary-font-family;
+  font-size: $primary-font-size;
+  color: $primary-font-color;
+}
+
+.btn {
+  border-radius: 8px;
+  &__login {
+    border: 2px solid #f2f4f5;
+  }
+}
+
+.topbar {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: $secondary-font-family;
+
+  a {
+    color: $secondary !important;
+    text-decoration: none;
+
+    &:hover,
+    &.active {
+      color: $primary !important;
+    }
+  }
+}
+
+.footer {
+  &__links a {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: $secondary-font-family;
+    color: $secondary !important;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &__note {
+    font-size: 12px;
+    color: #88979e;
+  }
+}

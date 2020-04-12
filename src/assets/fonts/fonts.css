@@ -1,0 +1,77 @@
+/* Barlow */
+
+@font-face {
+  font-family: Barlow;
+  src: url('./Barlow/Barlow-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url('./Barlow/Barlow-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url('./Barlow/Barlow-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url('./Barlow/Barlow-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url('./Barlow/Barlow-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url('./Barlow/Barlow-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Barlow italic */
+
+/* SourceSansPro */
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url('./Source_Sans_Pro/SourceSansPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url('./Source_Sans_Pro/SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url('./Source_Sans_Pro/SourceSansPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url('./Source_Sans_Pro/SourceSansPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* SourceSansPro italic */
