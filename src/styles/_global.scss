@@ -10,6 +10,11 @@ body {
   color: $primary-font-color;
 }
 
+h3,
+p {
+  margin: 0;
+}
+
 .btn {
   border-radius: 8px;
   &__login {

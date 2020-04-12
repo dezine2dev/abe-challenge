@@ -9,7 +9,7 @@ export default ({ ...rest }) => {
     <div className="search__box">
       <Form.Control type="text" {...rest} />
       <span>
-        <FontAwesomeIcon icon="search" color="#0c40fc" />
+        <FontAwesomeIcon icon="search" color="primary" />
       </span>
     </div>
   );
