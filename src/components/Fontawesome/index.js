@@ -6,13 +6,14 @@ import {
   faChevronRight,
   faPlusCircle,
   faPlus,
+  faChevronUp,
 } from '@fortawesome/free-solid-svg-icons';
 
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import './Fontawesome.scss';
 
 config.autoAddCss = false;
-library.add(faSearch, faChevronRight, faPlusCircle, faPlus);
+library.add(faSearch, faChevronRight, faChevronUp, faPlusCircle, faPlus);
 
 export default ({ color, ...rest }) => {
   return <FontAwesomeIcon className="fontawesome__icon" color={color} {...rest} />;
