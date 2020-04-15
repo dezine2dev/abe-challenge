@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
     "classnames": "^2.2.6",
+    "formik": "^2.1.4",
     "history": "^4.10.1",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
