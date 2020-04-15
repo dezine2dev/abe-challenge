@@ -21,9 +21,22 @@
       border-radius: 0 10px 10px 0;
     }
 
+    .accordion-collapse {
+      width: 300px;
+      margin-left: auto;
+
+      .card-body {
+        padding-left: 0;
+      }
+    }
+
     &-header {
       background: none;
       border: none;
+
+      width: 300px;
+      padding-left: 0;
+      margin-left: auto;
 
       a {
         width: 100%;

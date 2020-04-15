@@ -176,8 +176,15 @@ export default () => {
         <h4>How can I suggest a sports betting topic for abe to cover?</h4>
         <p>
           Shoot an e-mail to{' '}
-          <span className="text-primary font-weight-semibold">crew@abebets.com</span> with
-          any questions, suggestions or concerns, and we’ll make sure to address them.
+          <a
+            href="mailto:crew@abebets.com"
+            target="_top"
+            className="text-primary font-weight-semibold"
+          >
+            crew@abebets.com
+          </a>{' '}
+          with any questions, suggestions or concerns, and we’ll make sure to address
+          them.
         </p>
       </div>
       <Row className="my-5 mr-0">

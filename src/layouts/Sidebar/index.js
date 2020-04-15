@@ -50,7 +50,7 @@ export default () => {
               Betting 101
             </CustomToggle>
           </Card.Header>
-          <Accordion.Collapse eventKey="0">
+          <Accordion.Collapse className="accordion-collapse" eventKey="0">
             <Card.Body className="d-flex flex-column">
               <p>We’ll put you on the path to becoming a successful sports bettor</p>
               <NavLink
@@ -111,7 +111,7 @@ export default () => {
               Advanced Betting Concepts
             </CustomToggle>
           </Card.Header>
-          <Accordion.Collapse eventKey="1">
+          <Accordion.Collapse className="accordion-collapse" eventKey="1">
             <Card.Body className="d-flex flex-column">
               <p>
                 Take your sports betting game to the next level with advice from the pros
