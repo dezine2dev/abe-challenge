@@ -40,7 +40,7 @@ export default () => {
         <p>
           In a{' '}
           <span className="text-primary font-weight-semibold">
-            2019 interview on NPR's <i>Fresh Air</i>
+            2019 interview on NPR's Fresh Air
           </span>
           , actor/comedian Adam Sandler described the sheer excitement of sports betting
           to host Terry Gross.
