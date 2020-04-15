@@ -118,3 +118,10 @@ p {
   border: 1px solid #f2f4f5;
   border-radius: 10px;
 }
+
+.how_to_bet_content span.text-primary {
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
