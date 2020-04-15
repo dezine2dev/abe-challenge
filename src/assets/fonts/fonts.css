@@ -30,6 +30,13 @@
 
 @font-face {
   font-family: Barlow;
+  src: url('./Barlow/Barlow-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Barlow;
   src: url('./Barlow/Barlow-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
@@ -57,6 +64,13 @@
   font-family: SourceSansPro;
   src: url('./Source_Sans_Pro/SourceSansPro-Regular.ttf') format('truetype');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SourceSansPro;
+  src: url('./Source_Sans_Pro/SourceSansPro-SemiBold.ttf') format('truetype');
+  font-weight: 600;
   font-style: normal;
 }
 
