@@ -1,0 +1,24 @@
+.how_to_bet_wrapper {
+  position: relative;
+
+  .col-md-4 {
+    position: inherit;
+  }
+}
+
+.how_to_bet_content {
+  > h2,
+  > p,
+  > h4,
+  > div {
+    max-width: 740px;
+  }
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 24px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+}

@@ -6,8 +6,8 @@ import HowToBet from './HowToBet';
 const App = () => {
   return (
     <Switch>
-      <Route path="/how_to_bet" component={HowToBet} />
-      <Redirect to="/how_to_bet" />
+      <Route path="/how-to-bet" component={HowToBet} />
+      <Redirect to="/how-to-bet" />
     </Switch>
   );
 };
