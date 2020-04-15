@@ -18,8 +18,15 @@ p {
 .btn {
   border-radius: 8px;
   &__login {
-    border: 2px solid #f2f4f5;
+    border: 2px solid $primary-border-color;
   }
+}
+
+.btn:focus,
+.btn.focus,
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .topbar {
@@ -52,6 +59,57 @@ p {
 
   &__note {
     font-size: 12px;
-    color: #88979e;
+    color: $grey;
   }
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: $secondary-font-family;
+}
+
+h3 {
+  font-family: $secondary-font-family;
+  font-weight: bold;
+  font-size: 28px;
+  color: $secondary;
+}
+
+h4 {
+  font-family: $secondary-font-family;
+  font-weight: bold;
+  font-size: 24px;
+  color: $secondary;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  color: $secondary;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-weight-semibold {
+  font-weight: 600;
+}
+
+.go-to-next {
+  margin-bottom: 140px !important;
+
+  a {
+    font-weight: bold;
+    font-size: 14px;
+    color: $grey;
+    letter-spacing: 0.04em;
+    text-transform: lowercase;
+    text-decoration: none;
+  }
+}
+
+.go-to-top {
+  color: #ced7db;
 }
