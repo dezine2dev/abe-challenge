@@ -20,7 +20,7 @@ export default () => {
           <NavLink className="mx-2" activeClassName="active" to="/futures">
             Futures
           </NavLink>
-          <NavLink className="mx-2" activeClassName="active" to="/how_to_bet">
+          <NavLink className="mx-2" activeClassName="active" to="/how-to-bet">
             How To Bet
           </NavLink>
           <NavLink className="mx-2" activeClassName="active" to="/leagues">
